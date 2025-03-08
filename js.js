@@ -35,7 +35,7 @@ function calcularVolumenGasolina(event) {
     
         // Definir las constantes
         const radio = 1; // Radio en metros
-        const longitud = 1.425; // Longitud del cilindro en metros
+        const longitud = 1.62; // Longitud del cilindro en metros (pasada 1.425)
     
         // Calcular el área del segmento circular
         const A = Math.pow(radio, 2) * Math.acos((radio - alturaM) / radio) - (radio - alturaM) * Math.sqrt(2 * radio * alturaM - Math.pow(alturaM, 2));
